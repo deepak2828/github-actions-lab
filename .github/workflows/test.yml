@@ -1,4 +1,4 @@
-name: Runner Smoke Test
+name: Runner Smoke Test for testing the connectivity
 
 on:
   push:
