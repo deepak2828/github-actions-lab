@@ -1,0 +1,16 @@
+name: Test ARC Runner
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: arc-runner-set
+
+    steps:
+      - name: Test runner
+        run: |
+          echo "Hello from ARC on KinD"
+          hostname
+          uname -a
+          sleep 30
